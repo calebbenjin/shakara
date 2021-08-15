@@ -236,7 +236,7 @@ input, button {
 
   .section-toggle {
     width: 100%;
-    background: #fff;
+    /* background: #fff; */
     display: flex;
   }
 
@@ -352,7 +352,45 @@ input, button {
     transition: var(--transition);
   }
 
+  .video-section {
+    /* background: #eee; */
+  }
 
+  .video-section .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .videoCard {
+    width: 40%;
+  }
+
+  .video-section .content-section {
+    width: 40%;
+  }
+
+  .video-section .content-section {
+    text-align: justify;
+  }
+
+  .video-section .content-section .icon{
+    text-decoration: underline;
+  }
+  .video-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sect-img {
+    width: 40%;
+  }
+
+  .third-section {
+    background: #fdfdfd;
+  }
 
 
 
