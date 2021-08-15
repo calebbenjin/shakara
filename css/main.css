@@ -490,7 +490,7 @@ h1 {
   font-size: 2.5rem;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 h3 {
   font-size: 1.25rem;
@@ -633,6 +633,33 @@ h4 {
     justify-content: space-between;
     flex-direction: column;
   }
+
+  .flex-container img {
+    width: 80%;
+    margin: 2rem 0;
+  }
+
+  .videoCard {
+    width: 100%;
+  }
+
+  .video-section .content-section {
+    width: 100%;
+  }
+
+  .video-section .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .subFooter .text {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  
  
 }
 
