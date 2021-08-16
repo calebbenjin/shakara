@@ -38,6 +38,23 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  transition: var(--transition);
+}
+  ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  transition: var(--transition);
+}
+  ::-webkit-scrollbar-thumb {
+  background: var(--primaryColor); 
+    border-radius:10px;
+    transition: var(--transition);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+} 
+
 *,
 ::after,
 ::before {
@@ -472,6 +489,203 @@ input, button {
 
 
 
+  /* Registration Styling */
+
+  .regPage {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  .loginPage {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  .regPage .leftContainer {
+    /* width: 70%; */
+    background: #ffff;
+    height: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 4rem 0;
+  }
+
+  .loginPage .leftContainer {
+    /* width: 70%; */
+    background: var(--secondaryColor);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+  }
+
+  .regForm {
+    width: 45%;
+  }
+
+  .loginPage .regForm {
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .regForm form select {
+    padding: 30px !important;
+    background: red !important;
+  }
+
+  .regForm .input-group {
+    margin-bottom: 20px !important;
+  }
+
+  .regForm input {
+    width: 100%;
+    padding-left: 1rem;
+    height: 50px;
+    border-radius: var(--radius) !important;
+    outline: none;
+    border: none;
+    border: solid 1px #999;
+    transition: var(--transition);
+  }
+
+  .regForm input:focus {
+    border: solid 1px #999;
+    padding-left: 2rem;
+  }
+
+  .regForm hr {
+    margin: 2rem 0;
+  }
+
+  .regForm input::placeholder {
+    color: #333;
+  }
+
+  .regPage .rightContainer {
+    background: #eee;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+  }
+  .loginPage .rightContainer {
+    background: #fff;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0;
+  }
+
+  .regPage .rightContainer .container {
+    text-align: center;
+  }
+
+  .regPage .rightContainer img {
+    width: 40%;
+    margin: 4rem 0;
+  }
+
+  .regForm .logo a{
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--secondaryColor);
+  }
+
+  .loginPage .logo a{
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .loginPage .logo{
+    font-weight: 700;
+    margin-bottom: 4rem;
+    color: #fff;
+  }
+
+  .regForm form .passHead {
+    padding-bottom: 1rem;
+  }
+  
+  .regForm form .small {
+    font-size: 0.7rem;
+  }
+
+  .regForm .text {
+    font-size: 0.9rem;
+    color: #999;
+  }
+
+  .loginPage .des {
+    color: #fff;
+    margin-top: 3rem;
+  }
+
+  .regForm .title {
+    font-weight: 700;
+  }
+
+  .loginPage .leftContainer .title {
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .regForm .footer {
+    margin-top: 2rem;
+  }
+
+  .regForm .footer p {
+    font-size: 0.8rem;
+    color: #999;
+  }
+
+  .footer-btn {
+    padding: 15px 40px;
+  }
+
+  .btnContainer {
+    margin-top: 2rem;
+  }
+
+  .btnContainer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  .iconContainer {
+    margin: 5rem auto;
+    width: 80%;
+  }
+
+  .iconContainer .title {
+    font-weight: 700;
+    margin: 0;
+  }
+  .iconContainer p {
+    margin: 0;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+
+  .iconContainer ion-icon {
+    font-size: 6rem;
+    margin: 0;
+    margin-bottom: -10px;
+    color: #333;
+  }
+
+  .loginLeftContainer {
+
+  }
 
 
 
@@ -660,6 +874,56 @@ h4 {
   }
 
   
+
+  .regPage {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  .loginPage {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    overflow-y: hidden;
+    margin: none;
+  }
+
+  .regPage .rightContainer {
+    background: #eee;
+    height: 100%;
+    display: none;
+  }
+
+  .loginPage .rightContainer {
+    height: 100%;
+    /* display: none; */
+    padding: 2rem;
+  }
+
+  .loginPage .leftContainer {
+    height: 40vh;
+    padding: 1rem;
+  }
+
+  .loginPage .leftContainer .des {
+    display: none;
+  }
+
+  .loginPage .logo{
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #fff;
+  }
+
+  .regForm {
+    width: 80%;
+  }
+  
+  .loginPage .regForm {
+    width: 100%;
+  }
  
 }
 
