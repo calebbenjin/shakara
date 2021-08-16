@@ -11,9 +11,9 @@ const rightToggleContainer = document.querySelector(
 );
 
 window.addEventListener("load", function () {
-  document.querySelector('body').style.background = 'red'
+  // document.querySelector('body').style.background = 'red'
   setTimeout(function () {
-    document.querySelector('body').style.background = 'white'
+    // document.querySelector('body').style.background = 'white'
   }, 2000);
 });
 
