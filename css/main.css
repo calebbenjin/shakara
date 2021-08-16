@@ -386,6 +386,11 @@ input, button {
     width: 40%;
   }
 
+  .videoCard iframe {
+    width: 100%;
+    height: 400px;
+  }
+
   .video-section .content-section {
     width: 40%;
   }
@@ -776,6 +781,10 @@ h4 {
     color: #333;
   }
 
+  header nav .secondary-btn {
+    box-shadow: var(--dark-shadow);
+    margin-left: 1rem;
+  }
 
   
   header .nav-close {
@@ -789,7 +798,7 @@ h4 {
   
   
   header nav .social-icons {
-    margin-top: 1rem;
+    margin-top: 3rem;
     width: 100%;
     /* text-align: center; */
   }
@@ -855,6 +864,13 @@ h4 {
 
   .videoCard {
     width: 100%;
+    margin-top: 2rem;
+  }
+
+  .videoCard iframe {
+    width: 100%;
+    height: 300px;
+    margin: 2rem 0;
   }
 
   .video-section .content-section {
