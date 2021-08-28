@@ -107,7 +107,6 @@ input, button {
     /* position: fixed;
     top: 0;
     left: 0; */
-    height: 10%;
     padding: 1rem 0;
     display: flex;
     justify-content: center;
@@ -856,6 +855,9 @@ h4 {
 }
 
 
+header {
+  padding: 0 !important;
+}
   
   header .container {
     display: flex;
