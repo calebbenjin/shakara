@@ -108,6 +108,7 @@ input, button {
     top: 0;
     left: 0; */
     height: 10%;
+    padding: 1rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -722,6 +723,70 @@ input, button {
   .download-btns img {
     width: 120px;
     margin-right: 1rem;
+  }
+
+
+  .almost-section {
+    height: 100%;
+    padding: 6rem 0;
+  }
+  .almost-section .title{
+    font-weight: 900;
+    margin: 1rem 0;
+  }
+
+  .almost-section .progress-bar {
+    font-weight: 900;
+    font-size: 1rem;
+  }
+
+  .almost-section .onBoradingCard {
+    background: var(--secondaryColor);
+    color: #fff;
+    padding: 3rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: var(--dark-shadow);
+  }
+
+  .almost-section .onBoradingCard i {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: solid 1px var(--primaryColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+  }
+
+  .almost-section .onBoradingCard a {
+    color: #fff;
+    font-weight: 900;
+  }
+
+  .almost-section .onBoradingCard .note {
+    font-weight: 900;
+    text-align: left;
+  }
+
+  .almost-section .onBoradingCard ul {
+    margin-bottom: 2rem;
+  }
+
+  .almost-section .onBoradingCard ul li {
+    list-style-type: disc;
+    text-align: left;
+  }
+
+  .almost-section .skip {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .almost-section .skip a {
+    color: #333;
   }
 
 
