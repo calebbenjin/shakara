@@ -9,7 +9,7 @@
 
 :root {
   --primaryColor: #d9e5eb;
-  --secondaryColor: #0f72b4;
+  --secondaryColor: #021624;
   --greyColor:  #f8f8f8ee;
   --whiteColor: #fdfdfdee;
   --ff-primary: 'Montserrat', sans-serif;
@@ -143,6 +143,9 @@ input, button {
     color: #333;
     z-index: 99;
   }
+  header .branding img {
+    width: 50px;
+  }
 
   header .nav-btn {
     display: none;
@@ -264,7 +267,7 @@ input, button {
 
   .left-container {
     /* background: var(--secondaryColor); */
-    background-image: linear-gradient(to bottom, rgb(11, 57, 109), rgba(11, 57, 109, 0.877), rgba(11, 84, 133, 0.61)), url(../img/bg1.jpg);
+    background-image: linear-gradient(to bottom, rgb(1, 11, 22), rgba(1, 12, 26, 0.877), rgba(1, 21, 34, 0.61)), url(../img/bg1.jpg);
     background-size: cover;
     background-position: center;
     padding: 8rem 0;
@@ -272,7 +275,7 @@ input, button {
   }
 
   .bank-section {
-    background-image: linear-gradient(to bottom, rgba(11, 57, 109, 0.753), rgba(11, 57, 109, 0.719), rgba(11, 84, 133, 0.185)), url(../img/card.jpg);
+    background-image: linear-gradient(to bottom, rgba(1, 14, 29, 0.753), rgba(2, 17, 34, 0.719), rgba(1, 24, 39, 0.185)), url(../img/card.jpg);
     background-size: cover;
     background-position: center;
     padding: 8rem 0;
@@ -293,7 +296,7 @@ input, button {
   }
 
   .video-img {
-    width: 40%;
+    width: 10%;
     border-radius: 10px;
   }
 
